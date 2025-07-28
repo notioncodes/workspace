@@ -1,0 +1,21 @@
+default: dev
+workspaces:
+  - name: dev
+    path: ~/workspace/notion.codes
+    repositories:
+      - name: workspace
+        url: git@github.com:notioncodes/workspace.git
+        branch: main
+        path: workspace
+      - name: pkg/client
+        url: git@github.com:notioncodes/client.git
+        branch: main
+        path: pkg/client
+      - name: pkg/e2e
+        url: git@github.com:notioncodes/e2e.git
+        branch: main
+        path: pkg/e2e
+      - name: pkg/plugins/redis
+        url: git@github.com:notioncodes/plugin-redis.git
+        branch: main
+        path: pkg/plugins/redis
