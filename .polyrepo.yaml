@@ -11,6 +11,8 @@ workspaces:
         url: git@github.com:notioncodes/client.git
         branch: main
         path: pkg/client
+        tags:
+          - client
       - name: pkg/e2e
         url: git@github.com:notioncodes/e2e.git
         branch: main
