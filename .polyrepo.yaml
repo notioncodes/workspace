@@ -11,13 +11,27 @@ workspaces:
         url: git@github.com:notioncodes/client.git
         branch: main
         path: pkg/client
-        tags:
-          - client
+      - name: pkg/common
+        url: git@github.com:notioncodes/common.git
+        branch: main
+        path: pkg/common
       - name: pkg/e2e
         url: git@github.com:notioncodes/e2e.git
         branch: main
         path: pkg/e2e
+      - name: pkg/id
+        url: git@github.com:notioncodes/id.git
+        branch: main
+        path: pkg/id
+      - name: pkg/plugins/filesystem
+        url: git@github.com:notioncodes/plugin-filesystem.git
+        branch: main
+        path: pkg/plugins/filesystem
       - name: pkg/plugins/redis
         url: git@github.com:notioncodes/plugin-redis.git
         branch: main
         path: pkg/plugins/redis
+      - name: pkg/test
+        url: git@github.com:notioncodes/test.git
+        branch: main
+        path: pkg/test
